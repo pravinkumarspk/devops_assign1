@@ -1,45 +1,42 @@
-**Procedure for Creating GitHub Account & Deploying Project with Maven
-**
-**1. Create GitHub Account
-**
-Go to https://github.com <br><br>---<br><br>
-Click on Sign Up
-Enter Username, Email Address, and Password
-Click Create Account
-Verify your email
-**2. Create GitHub Repository
-**
-Login to GitHub
-Click on New Repository
-Enter Repository Name
-Choose Public or Private
-Click Create Repository
-**3. Upload Project to GitHub Using Maven
-**
-Install Git on your system
-Open Terminal or Command Prompt inside your project folder
-Type the following commands:
-git init  
-git remote add origin <repository_link>  
-git add .  
-git commit -m "Initial Commit"  
-git push origin main  
-**4. Configure Maven for Deployment
-**
-Add Maven Deploy Plugin in pom.xml
-Configure GitHub repository details in pom.xml
-Example Plugin:
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-deploy-plugin</artifactId>
-    <version>2.8.2</version>
-</plugin>
-**5. Build & Deploy Project Using Maven
-**
-Run the command:
-mvn clean install  
-Deploy project using:
-mvn deploy  
-6. Output
-After deployment, the project will be hosted on GitHub
-URL will be generated for project access
+##Procedure for Creating GitHub Account & Deploying Project with Maven<br><br>
+#1. Create GitHub Account<br>
+Go to https://github.com<br>
+Click on Sign Up<br>
+Enter Username, Email Address, and Password<br>
+Click Create Account<br>
+Verify your email<br><br>
+#2. Create GitHub Repository<br>
+Login to GitHub<br>
+Click on New Repository<br>
+Enter Repository Name<br>
+Choose Public or Private<br>
+Click Create Repository<br><br>
+#3. Upload Project to GitHub Using Maven<br>
+Install Git on your system<br>
+Open Terminal or Command Prompt inside your project folder<br>
+Type the following commands:<br><br>
+<code>
+git init  <br>
+git remote add origin <repository_link>  <br>
+git add .  <br>
+git commit -m "Initial Commit"  <br>
+git push origin main <br> 
+</code><br>
+#4. Configure Maven for Deployment<br>
+Add Maven Deploy Plugin in pom.xml<br>
+Configure GitHub repository details in pom.xml<br>
+Example Plugin:<br>
+<plugin><br>
+    <groupId>org.apache.maven.plugins</groupId><br>
+    <artifactId>maven-deploy-plugin</artifactId><br>
+    <version>2.8.2</version><br>
+</plugin><br><br>
+#5. Build & Deploy Project Using Maven<br>
+
+Run the command:<br>
+mvn clean install  <br>
+Deploy project using:<br>
+mvn deploy  <br><br>
+#6. Output<br>
+After deployment, the project will be hosted on GitHub<br>
+URL will be generated for project access<br>
