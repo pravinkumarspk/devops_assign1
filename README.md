@@ -33,7 +33,7 @@ Example Plugin:<br>
 # 5. Build & Deploy Project Using Maven<br>
 
 Run the command:<br>
-<code>mvn clean install  <br></code>
+<code>mvn clean install</code><br>
 Deploy project using:<br>
 <code>mvn deploy </code><br><br>
 # 6. Output<br>
