@@ -5,13 +5,13 @@ Click on Sign Up<br>
 Enter Username, Email Address, and Password<br>
 Click Create Account<br>
 Verify your email<br><br>
-#2. Create GitHub Repository<br>
+# 2. Create GitHub Repository<br>
 Login to GitHub<br>
 Click on New Repository<br>
 Enter Repository Name<br>
 Choose Public or Private<br>
 Click Create Repository<br><br>
-#3. Upload Project to GitHub Using Maven<br>
+# 3. Upload Project to GitHub Using Maven<br>
 Install Git on your system<br>
 Open Terminal or Command Prompt inside your project folder<br>
 Type the following commands:<br><br>
@@ -22,7 +22,7 @@ git add .  <br>
 git commit -m "Initial Commit"  <br>
 git push origin main <br> 
 </code><br>
-#4. Configure Maven for Deployment<br>
+# 4. Configure Maven for Deployment<br>
 Add Maven Deploy Plugin in pom.xml<br>
 Configure GitHub repository details in pom.xml<br>
 Example Plugin:<br>
@@ -33,7 +33,7 @@ Example Plugin:<br>
     <version>2.8.2</version><br>
 </plugin>
 </code><br><br>
-#5. Build & Deploy Project Using Maven<br>
+# 5. Build & Deploy Project Using Maven<br>
 
 Run the command:<br>
 <code>
@@ -43,6 +43,6 @@ Deploy project using:<br>
 <code>
 mvn deploy 
 </code><br><br>
-#6. Output<br>
+# 6. Output<br>
 After deployment, the project will be hosted on GitHub<br>
 URL will be generated for project access<br>
