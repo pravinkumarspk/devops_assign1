@@ -26,13 +26,12 @@ git push origin main <br>
 Add Maven Deploy Plugin in pom.xml<br>
 Configure GitHub repository details in pom.xml<br>
 Example Plugin:<br>
-<code>
 <plugin><br>
     <groupId>org.apache.maven.plugins</groupId><br>
     <artifactId>maven-deploy-plugin</artifactId><br>
     <version>2.8.2</version><br>
 </plugin>
-</code><br><br>
+<br><br>
 # 5. Build & Deploy Project Using Maven<br>
 
 Run the command:<br>
