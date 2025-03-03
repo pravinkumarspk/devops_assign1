@@ -2,7 +2,7 @@
 **
 **1. Create GitHub Account
 **
-Go to https://github.com
+Go to https://github.com <br><br>---<br><br>
 Click on Sign Up
 Enter Username, Email Address, and Password
 Click Create Account
