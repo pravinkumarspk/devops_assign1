@@ -1,4 +1,4 @@
-##Procedure for Creating GitHub Account & Deploying Project with Maven<br><br>
+##Procedure for Creating GitHub Account & Deploying Project with Maven##<br><br>
 #1. Create GitHub Account<br>
 Go to https://github.com<br>
 Click on Sign Up<br>
