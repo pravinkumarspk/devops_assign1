@@ -1,5 +1,5 @@
-##Procedure for Creating GitHub Account & Deploying Project with Maven##<br><br>
-#1. Create GitHub Account<br>
+## Procedure for Creating GitHub Account & Deploying Project with Maven<br><br>
+# 1. Create GitHub Account<br>
 Go to https://github.com<br>
 Click on Sign Up<br>
 Enter Username, Email Address, and Password<br>
@@ -26,17 +26,23 @@ git push origin main <br>
 Add Maven Deploy Plugin in pom.xml<br>
 Configure GitHub repository details in pom.xml<br>
 Example Plugin:<br>
+<code>
 <plugin><br>
     <groupId>org.apache.maven.plugins</groupId><br>
     <artifactId>maven-deploy-plugin</artifactId><br>
     <version>2.8.2</version><br>
-</plugin><br><br>
+</plugin>
+</code><br><br>
 #5. Build & Deploy Project Using Maven<br>
 
 Run the command:<br>
+<code>
 mvn clean install  <br>
+</code>
 Deploy project using:<br>
-mvn deploy  <br><br>
+<code>
+mvn deploy 
+</code><br><br>
 #6. Output<br>
 After deployment, the project will be hosted on GitHub<br>
 URL will be generated for project access<br>
